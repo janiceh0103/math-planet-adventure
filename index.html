@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#11162d" />
+    <title>數學星球・闖關大冒險</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="數學星球首頁">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span>小小探險家<span class="brand-dot">.</span></span>
+        </a>
+        <div class="top-note"><span class="status-dot"></span>準備好出發了嗎？</div>
+      </header>
+
+      <section class="game-shell" aria-label="數學星球闖關遊戲">
+        <div class="game-heading">
+          <div>
+            <p class="eyebrow">MATH ADVENTURE · 01—05</p>
+            <h1>數學星球 <span>闖關大冒險</span></h1>
+          </div>
+          <div class="level-stamp"><span class="stamp-star">✦</span><span>共 5 個星球</span></div>
+        </div>
+        <div id="game" class="game-frame"></div>
+        <div class="game-footer">
+          <div class="tip"><span class="tip-icon">✧</span><span>找到題目的正確答案，讓小星球人繼續前進！</span></div>
+          <div class="credit">動動腦 · 勇敢探索</div>
+        </div>
+      </section>
+
+      <footer class="page-footer">每答對一題 <b>＋10 分</b><span class="footer-separator">·</span>答錯 <b>−5 分</b><span class="footer-separator">·</span>加油，你一定可以！</footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.min.js"></script>
+    <script src="./game.js"></script>
+  </body>
+</html>
